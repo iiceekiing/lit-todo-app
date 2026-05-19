@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-litbg text-littext font-sans antialiased;
+  }
+}
+
+/* Custom scrollbar to match original design */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #f0e4b0; }
+::-webkit-scrollbar-thumb { background: #d4b96a; border-radius: 2px; }
+
+/* Custom animations */
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+.spinner { 
+  width: 16px; height: 16px; border: 2px solid rgba(255,255,255,0.4); 
+  border-top-color: #fff; border-radius: 50%; animation: spin-slow 0.7s linear infinite; 
+}
+
+@keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-7px)} }
+.empty-float { animation: float 3s ease-in-out infinite; }
+
+@keyframes slideIn { from{opacity:0;transform:translateY(-10px)} to{opacity:1;transform:translateY(0)} }
+.task-animate { animation: slideIn 0.22s ease forwards; }
+
+.view { display: none; min-height: 100vh; }
+.view.active { display: flex; }

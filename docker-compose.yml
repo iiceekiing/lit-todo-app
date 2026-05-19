@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: lit_db
+    environment:
+      POSTGRES_USER: lituser
+      POSTGRES_PASSWORD: litpassword
+      POSTGRES_DB: littodo
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  api:
+    build: ./backend
+    container_name: lit_api
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://lituser:litpassword@db:5432/littodo
+      - JWT_SECRET_KEY=supersecretkey_change_this_in_production
+      - JWT_ALGORITHM=HS256
+      - JWT_ACCESS_TOKEN_EXPIRE_MINUTES=60
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:

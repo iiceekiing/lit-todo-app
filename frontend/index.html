@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LIT — Little Important Things</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="./dist/output.css" rel="stylesheet" />
+</head>
+<body class="bg-litbg text-littext font-sans min-h-screen">
+
+<!-- ══════════════════════════════════════════════════════
+     GUEST VIEW (LANDING PAGE)
+══════════════════════════════════════════════════════ -->
+<div id="view-guest" class="view active flex-col">
+  <!-- Guest Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 px-6 py-4 flex items-center justify-between bg-[#2c2c2a]/90 border-b border-white/10 backdrop-blur-md">
+    <div class="flex items-center gap-3">
+      <div class="w-[38px] h-[38px] bg-litblue rounded-[10px] flex items-center justify-center">
+        <span class="font-mono font-bold text-[11px] text-white">LIT</span>
+      </div>
+      <div>
+        <p class="font-mono font-bold text-white tracking-widest">LIT</p>
+        <p class="text-[9px] text-white/55 tracking-[0.18em] uppercase mt-0.5">Public Stream</p>
+      </div>
+    </div>
+    <div class="flex items-center gap-3">
+      <button onclick="app.showView('login')" class="px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white/80 text-xs font-semibold hover:bg-white/20 transition-all font-sans">
+        Sign In
+      </button>
+      <button onclick="app.showView('register')" class="px-4 py-2 bg-litblue rounded-lg text-white text-xs font-semibold hover:bg-litbluedk transition-all font-sans">
+        Sign Up
+      </button>
+    </div>
+  </header>
+
+  <!-- Guest Main Content -->
+  <main class="flex-col pt-[94px] pb-[80px] max-w-[640px] mx-auto px-4 w-full flex-1">
+    
+    <div class="text-center mb-8 mt-4">
+      <h1 class="text-2xl font-bold mb-2">Public Todos</h1>
+      <p class="text-litmuted text-sm">Anyone can add a task. Sign in for private tasks and more features.</p>
+    </div>
+
+    <!-- Create Guest Task card -->
+    <div class="bg-white rounded-2xl p-5 mb-5 shadow-card">
+      <p class="font-mono text-[10px] font-bold text-litmuted uppercase tracking-[0.15em] mb-2.5">Quick Add Public Task</p>
+      <form id="form-add-guest-todo" class="flex gap-2.5">
+        <input id="input-guest-todo" required class="flex-1 bg-gray-50 border-[1.5px] border-litborder text-littext px-3.5 py-2.5 text-sm rounded-lg transition-all focus:outline-none focus:border-litblue focus:ring-[3px] focus:ring-litblue/10 font-sans" type="text" placeholder="What needs to be done?" />
+        <button type="submit" id="btn-add-guest" class="flex items-center gap-2 bg-litblue text-white px-4 py-2.5 text-[13px] font-bold rounded-lg border-none cursor-pointer font-mono tracking-[0.05em] transition-all hover:bg-litbluedk whitespace-nowrap">
+          ADD+
+        </button>
+      </form>
+    </div>
+
+    <!-- Guest Task list -->
+    <div id="list-guest-todos" class="flex flex-col gap-2.5">
+      <!-- Empty state handled by JS -->
+    </div>
+  </main>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     LOGIN VIEW
+══════════════════════════════════════════════════════ -->
+<div id="view-login" class="view">
+  <div class="flex-1 flex flex-col items-center justify-center px-4 py-6 gap-5">
+    <div class="flex items-center gap-3">
+      <div class="w-11 h-11 bg-litblue rounded-xl flex items-center justify-center">
+        <span class="font-mono font-bold text-xs text-white tracking-[0.05em]">LIT</span>
+      </div>
+      <div>
+        <p class="font-mono font-bold text-[18px] text-litblue tracking-[0.25em]">LIT</p>
+        <p class="text-[10px] text-[#a08c50] tracking-[0.18em] uppercase mt-0.5">Little Important Things</p>
+      </div>
+    </div>
+    <div class="bg-white rounded-[20px] p-8 pb-8 w-full max-w-[420px] shadow-card">
+      <h2 class="text-[22px] font-bold text-littext mb-1">Welcome back 👋</h2>
+      <p class="text-[13px] text-litmuted mb-7">Sign in to your private dashboard</p>
+      
+      <div id="login-banner" class="hidden px-3.5 py-2.5 rounded-lg text-[13px] font-medium mb-4 bg-red-50 text-red-600 border border-red-200"></div>
+      
+      <form id="form-login">
+        <div class="mb-4">
+          <label class="block text-[11px] font-semibold text-litgray uppercase tracking-[0.1em] mb-1.5 font-mono">Email</label>
+          <input required type="email" id="login-email" class="w-full bg-gray-50 border-[1.5px] border-litborder text-littext px-3.5 py-2.5 text-sm rounded-[10px] transition-all focus:outline-none focus:border-litblue focus:ring-[3px] focus:ring-litblue/10 font-sans" placeholder="you@example.com" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-[11px] font-semibold text-litgray uppercase tracking-[0.1em] mb-1.5 font-mono">Password</label>
+          <input required type="password" id="login-password" class="w-full bg-gray-50 border-[1.5px] border-litborder text-littext px-3.5 py-2.5 text-sm rounded-[10px] transition-all focus:outline-none focus:border-litblue focus:ring-[3px] focus:ring-litblue/10 font-sans" placeholder="••••••••" />
+        </div>
+        <button type="submit" id="login-btn" class="w-full p-[13px] bg-litblue text-white border-none rounded-[10px] text-sm font-bold font-mono tracking-[0.06em] cursor-pointer transition-all mt-2 flex items-center justify-center gap-2 hover:bg-litbluedk disabled:bg-litmuted">
+          Sign In
+        </button>
+      </form>
+    </div>
+    <p class="text-[13px] text-litmuted text-center">
+      Don't have an account? <a onclick="app.showView('register')" class="text-litblue font-semibold cursor-pointer hover:underline">Create one →</a><br/>
+      <a onclick="app.showView('guest')" class="text-litgray font-semibold cursor-pointer hover:underline mt-2 inline-block">← Back to Public Todos</a>
+    </p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     REGISTER VIEW
+══════════════════════════════════════════════════════ -->
+<div id="view-register" class="view">
+  <div class="flex-1 flex flex-col items-center justify-center px-4 py-6 gap-5">
+    <div class="flex items-center gap-3">
+      <div class="w-11 h-11 bg-litblue rounded-xl flex items-center justify-center">
+        <span class="font-mono font-bold text-xs text-white tracking-[0.05em]">LIT</span>
+      </div>
+      <div>
+        <p class="font-mono font-bold text-[18px] text-litblue tracking-[0.25em]">LIT</p>
+        <p class="text-[10px] text-[#a08c50] tracking-[0.18em] uppercase mt-0.5">Little Important Things</p>
+      </div>
+    </div>
+    <div class="bg-white rounded-[20px] p-8 pb-8 w-full max-w-[420px] shadow-card">
+      <h2 class="text-[22px] font-bold text-littext mb-1">Create account ✨</h2>
+      <p class="text-[13px] text-litmuted mb-7">Start tracking your little important things privately</p>
+      
+      <div id="register-banner" class="hidden px-3.5 py-2.5 rounded-lg text-[13px] font-medium mb-4 bg-red-50 text-red-600 border border-red-200"></div>
+      <div id="register-banner-success" class="hidden px-3.5 py-2.5 rounded-lg text-[13px] font-medium mb-4 bg-green-50 text-green-600 border border-green-200"></div>
+      
+      <form id="form-register">
+        <div class="flex gap-3 mb-4 flex-col sm:flex-row">
+          <div class="flex-1">
+            <label class="block text-[11px] font-semibold text-litgray uppercase tracking-[0.1em] mb-1.5 font-mono">First Name</label>
+            <input required type="text" id="reg-firstname" class="w-full bg-gray-50 border-[1.5px] border-litborder text-littext px-3.5 py-2.5 text-sm rounded-[10px] transition-all focus:outline-none focus:border-litblue focus:ring-[3px] focus:ring-litblue/10 font-sans" placeholder="Ada" />
+          </div>
+          <div class="flex-1">
+            <label class="block text-[11px] font-semibold text-litgray uppercase tracking-[0.1em] mb-1.5 font-mono">Last Name</label>
+            <input required type="text" id="reg-lastname" class="w-full bg-gray-50 border-[1.5px] border-litborder text-littext px-3.5 py-2.5 text-sm rounded-[10px] transition-all focus:outline-none focus:border-litblue focus:ring-[3px] focus:ring-litblue/10 font-sans" placeholder="Lovelace" />
+          </div>
+        </div>
+        <div class="mb-4">
+          <label class="block text-[11px] font-semibold text-litgray uppercase tracking-[0.1em] mb-1.5 font-mono">Email</label>
+          <input required type="email" id="reg-email" class="w-full bg-gray-50 border-[1.5px] border-litborder text-littext px-3.5 py-2.5 text-sm rounded-[10px] transition-all focus:outline-none focus:border-litblue focus:ring-[3px] focus:ring-litblue/10 font-sans" placeholder="ada@example.com" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-[11px] font-semibold text-litgray uppercase tracking-[0.1em] mb-1.5 font-mono">Password</label>
+          <input required type="password" minlength="8" id="reg-password" class="w-full bg-gray-50 border-[1.5px] border-litborder text-littext px-3.5 py-2.5 text-sm rounded-[10px] transition-all focus:outline-none focus:border-litblue focus:ring-[3px] focus:ring-litblue/10 font-sans" placeholder="••••••••" />
+        </div>
+        <button type="submit" id="register-btn" class="w-full p-[13px] bg-litblue text-white border-none rounded-[10px] text-sm font-bold font-mono tracking-[0.06em] cursor-pointer transition-all mt-2 flex items-center justify-center gap-2 hover:bg-litbluedk disabled:bg-litmuted">
+          Create Account
+        </button>
+      </form>
+    </div>
+    <p class="text-[13px] text-litmuted text-center">
+      Already have an account? <a onclick="app.showView('login')" class="text-litblue font-semibold cursor-pointer hover:underline">Sign in →</a><br/>
+      <a onclick="app.showView('guest')" class="text-litgray font-semibold cursor-pointer hover:underline mt-2 inline-block">← Back to Public Todos</a>
+    </p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     DASHBOARD VIEW (AUTHENTICATED)
+══════════════════════════════════════════════════════ -->
+<div id="view-dashboard" class="view flex-col">
+  <!-- Dashboard Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 px-6 py-3.5 flex items-center justify-between bg-[#2c2c2a] border-b border-white/10 backdrop-blur-md">
+    <div class="flex items-center gap-3">
+      <div class="w-[38px] h-[38px] bg-litblue rounded-[10px] flex items-center justify-center">
+        <span class="font-mono font-bold text-[11px] text-white">LIT</span>
+      </div>
+      <p class="text-[9px] text-white/55 tracking-[0.18em] uppercase mt-0.5">Private Dashboard</p>
+    </div>
+    <div class="flex items-center gap-5">
+      <div class="flex items-center gap-2 px-1.5 py-1.5 pr-2.5 bg-white/5 border border-white/10 rounded-full">
+        <div id="user-avatar" class="w-7 h-7 bg-litblue rounded-full flex items-center justify-center text-[11px] font-bold text-white font-mono uppercase">?</div>
+        <span id="user-display" class="text-xs text-white/80 font-medium hidden sm:inline">—</span>
+      </div>
+      <div class="text-center">
+        <div id="stat-total" class="font-mono text-[22px] font-bold leading-none text-litblue">0</div>
+        <div class="text-[9px] text-white/45 uppercase tracking-[0.15em] mt-1">Total</div>
+      </div>
+      <div class="w-px h-[34px] bg-white/15"></div>
+      <div class="text-center">
+        <div id="stat-done" class="font-mono text-[22px] font-bold leading-none text-litgreen">0</div>
+        <div class="text-[9px] text-white/45 uppercase tracking-[0.15em] mt-1">Done</div>
+      </div>
+      <div class="w-px h-[34px] bg-white/15"></div>
+      <button onclick="app.logout()" class="flex items-center gap-1.5 px-3.5 py-1.5 bg-white/5 border border-white/15 rounded-lg text-white/70 text-xs font-semibold cursor-pointer transition-all hover:bg-red-500/15 hover:border-red-500/35 hover:text-red-300">
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+          <path d="M5 1H2a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h3M9 9.5l3-3-3-3M5 6.5h7"/>
+        </svg>
+        Logout
+      </button>
+    </div>
+  </header>
+
+  <!-- Dashboard Main Content -->
+  <main class="flex-col pt-[94px] pb-[80px] max-w-[640px] mx-auto px-4 w-full flex-1">
+
+    <!-- Create Task card -->
+    <div class="bg-white rounded-2xl p-5 mb-5 shadow-card">
+      <p class="font-mono text-[10px] font-bold text-litmuted uppercase tracking-[0.15em] mb-2.5">New Private Task</p>
+      <form id="form-add-user-todo" class="flex gap-2.5">
+        <input id="input-user-todo" required class="flex-1 bg-gray-50 border-[1.5px] border-litborder text-littext px-3.5 py-2.5 text-sm rounded-lg transition-all focus:outline-none focus:border-litgreen focus:ring-[3px] focus:ring-litgreen/20 font-sans" type="text" placeholder="What needs to get done?" />
+        <button type="submit" id="btn-add-user" class="flex items-center gap-2 bg-litgreen text-white px-4 py-2.5 text-[13px] font-bold rounded-lg border-none cursor-pointer font-mono tracking-[0.05em] transition-all hover:bg-litgreendk whitespace-nowrap">
+          ADD+
+        </button>
+      </form>
+    </div>
+
+    <!-- Section bar -->
+    <div class="flex items-center justify-between mb-3 px-1">
+      <span class="font-mono text-[10px] text-[#a08c50] uppercase tracking-[0.2em]">Your Tasks</span>
+      <button onclick="app.clearCompleted()" class="font-mono text-[10px] text-[#a08c50] uppercase tracking-[0.12em] bg-transparent border-none cursor-pointer transition-all hover:text-litred">Clear Done</button>
+    </div>
+
+    <!-- Task list -->
+    <div id="list-user-todos" class="flex flex-col gap-2.5">
+      <!-- Empty state handled by JS -->
+    </div>
+  </main>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     GLOBAL COMPONENTS
+══════════════════════════════════════════════════════ -->
+
+<!-- Loading Overlay -->
+<div id="loading-overlay" class="fixed inset-0 bg-litbg/80 backdrop-blur-sm hidden flex-col items-center justify-center z-[200] gap-3.5">
+  <div class="w-9 h-9 border-4 border-litblue/20 border-t-litblue rounded-full animate-[spin_0.8s_linear_infinite]"></div>
+  <p class="font-mono text-xs text-[#a08c50] tracking-[0.1em]">LOADING...</p>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="fixed bottom-7 left-1/2 -translate-x-1/2 translate-y-5 bg-[#1a1a1a] text-white px-5 py-3 rounded-xl text-[13px] font-medium shadow-[0_8px_24px_rgba(0,0,0,0.2)] opacity-0 transition-all duration-300 pointer-events-none z-[999] whitespace-nowrap flex items-center gap-2"></div>
+
+<!-- JS -->
+<script src="./js/app.js"></script>
+
+</body>
+</html>

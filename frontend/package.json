@@ -1,0 +1,12 @@
+{
+  "name": "lit-todo-frontend",
+  "version": "1.0.0",
+  "description": "LIT MVP Frontend",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/style.css -o ./dist/output.css",
+    "watch:css": "tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
