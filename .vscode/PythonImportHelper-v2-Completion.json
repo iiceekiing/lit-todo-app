@@ -813,11 +813,20 @@
         "documentation": {}
     },
     {
+        "label": "_default_workers",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "_default_workers = min(multiprocessing.cpu_count() * 2 + 1, 4)\nworkers = max(1, int(os.environ.get(\"WEB_CONCURRENCY\", str(_default_workers))))\nbind = \"0.0.0.0:8000\"\nworker_class = \"uvicorn.workers.UvicornWorker\"\n# Default Gunicorn timeout is 30s; slow DB/SSL during startup needs more headroom.\ntimeout = int(os.environ.get(\"GUNICORN_TIMEOUT\", \"120\"))\ngraceful_timeout = int(os.environ.get(\"GUNICORN_GRACEFUL_TIMEOUT\", \"30\"))\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    },
+    {
         "label": "workers",
         "kind": 5,
         "importPath": "backend.gunicorn_conf",
         "description": "backend.gunicorn_conf",
-        "peekOfCode": "workers = multiprocessing.cpu_count() * 2 + 1\nbind = \"0.0.0.0:8000\"\nworker_class = \"uvicorn.workers.UvicornWorker\"\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "peekOfCode": "workers = max(1, int(os.environ.get(\"WEB_CONCURRENCY\", str(_default_workers))))\nbind = \"0.0.0.0:8000\"\nworker_class = \"uvicorn.workers.UvicornWorker\"\n# Default Gunicorn timeout is 30s; slow DB/SSL during startup needs more headroom.\ntimeout = int(os.environ.get(\"GUNICORN_TIMEOUT\", \"120\"))\ngraceful_timeout = int(os.environ.get(\"GUNICORN_GRACEFUL_TIMEOUT\", \"30\"))\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
         "detail": "backend.gunicorn_conf",
         "documentation": {}
     },
@@ -826,7 +835,7 @@
         "kind": 5,
         "importPath": "backend.gunicorn_conf",
         "description": "backend.gunicorn_conf",
-        "peekOfCode": "bind = \"0.0.0.0:8000\"\nworker_class = \"uvicorn.workers.UvicornWorker\"\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "peekOfCode": "bind = \"0.0.0.0:8000\"\nworker_class = \"uvicorn.workers.UvicornWorker\"\n# Default Gunicorn timeout is 30s; slow DB/SSL during startup needs more headroom.\ntimeout = int(os.environ.get(\"GUNICORN_TIMEOUT\", \"120\"))\ngraceful_timeout = int(os.environ.get(\"GUNICORN_GRACEFUL_TIMEOUT\", \"30\"))\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
         "detail": "backend.gunicorn_conf",
         "documentation": {}
     },
@@ -835,7 +844,25 @@
         "kind": 5,
         "importPath": "backend.gunicorn_conf",
         "description": "backend.gunicorn_conf",
-        "peekOfCode": "worker_class = \"uvicorn.workers.UvicornWorker\"\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "peekOfCode": "worker_class = \"uvicorn.workers.UvicornWorker\"\n# Default Gunicorn timeout is 30s; slow DB/SSL during startup needs more headroom.\ntimeout = int(os.environ.get(\"GUNICORN_TIMEOUT\", \"120\"))\ngraceful_timeout = int(os.environ.get(\"GUNICORN_GRACEFUL_TIMEOUT\", \"30\"))\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    },
+    {
+        "label": "timeout",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "timeout = int(os.environ.get(\"GUNICORN_TIMEOUT\", \"120\"))\ngraceful_timeout = int(os.environ.get(\"GUNICORN_GRACEFUL_TIMEOUT\", \"30\"))\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    },
+    {
+        "label": "graceful_timeout",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "graceful_timeout = int(os.environ.get(\"GUNICORN_GRACEFUL_TIMEOUT\", \"30\"))\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
         "detail": "backend.gunicorn_conf",
         "documentation": {}
     },
