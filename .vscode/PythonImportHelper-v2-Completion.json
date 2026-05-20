@@ -1,0 +1,878 @@
+[
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "multiprocessing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "register_user",
+        "kind": 2,
+        "importPath": "backend.app.routers.auth",
+        "description": "backend.app.routers.auth",
+        "peekOfCode": "def register_user(user: schemas.UserCreate, db: Session = Depends(database.get_db)):\n    # Check if user exists\n    db_user = db.query(models.User).filter(models.User.email == user.email).first()\n    if db_user:\n        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail=\"Email already registered\")\n    hashed_password = auth.get_password_hash(user.password)\n    new_user = models.User(\n        first_name=user.first_name,\n        last_name=user.last_name,\n        email=user.email,",
+        "detail": "backend.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login_for_access_token",
+        "kind": 2,
+        "importPath": "backend.app.routers.auth",
+        "description": "backend.app.routers.auth",
+        "peekOfCode": "def login_for_access_token(user_credentials: schemas.UserLogin, db: Session = Depends(database.get_db)):\n    user = db.query(models.User).filter(models.User.email == user_credentials.email).first()\n    if not user or not auth.verify_password(user_credentials.password, user.password):\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"Incorrect email or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token_expires = timedelta(minutes=auth.ACCESS_TOKEN_EXPIRE_MINUTES)\n    access_token = auth.create_access_token(",
+        "detail": "backend.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.auth",
+        "description": "backend.app.routers.auth",
+        "peekOfCode": "router = APIRouter(tags=[\"Authentication\"])\n@router.post(\"/register\", response_model=schemas.UserResponse, status_code=status.HTTP_201_CREATED)\ndef register_user(user: schemas.UserCreate, db: Session = Depends(database.get_db)):\n    # Check if user exists\n    db_user = db.query(models.User).filter(models.User.email == user.email).first()\n    if db_user:\n        raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail=\"Email already registered\")\n    hashed_password = auth.get_password_hash(user.password)\n    new_user = models.User(\n        first_name=user.first_name,",
+        "detail": "backend.app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_guest_todo",
+        "kind": 2,
+        "importPath": "backend.app.routers.guest_todos",
+        "description": "backend.app.routers.guest_todos",
+        "peekOfCode": "def create_guest_todo(\n    todo: schemas.GuestTodoCreate, \n    db: Session = Depends(database.get_db)\n):\n    new_todo = models.GuestTodo(**todo.model_dump())\n    db.add(new_todo)\n    db.commit()\n    db.refresh(new_todo)\n    return new_todo\n@router.get(\"\", response_model=List[schemas.GuestTodoResponse])",
+        "detail": "backend.app.routers.guest_todos",
+        "documentation": {}
+    },
+    {
+        "label": "get_guest_todos",
+        "kind": 2,
+        "importPath": "backend.app.routers.guest_todos",
+        "description": "backend.app.routers.guest_todos",
+        "peekOfCode": "def get_guest_todos(db: Session = Depends(database.get_db)):\n    # Guest todos are public to everyone.\n    todos = db.query(models.GuestTodo).order_by(models.GuestTodo.created_at.desc()).all()\n    return todos",
+        "detail": "backend.app.routers.guest_todos",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.guest_todos",
+        "description": "backend.app.routers.guest_todos",
+        "peekOfCode": "router = APIRouter(tags=[\"Guest Todos\"])\n@router.post(\"\", response_model=schemas.GuestTodoResponse, status_code=status.HTTP_201_CREATED)\ndef create_guest_todo(\n    todo: schemas.GuestTodoCreate, \n    db: Session = Depends(database.get_db)\n):\n    new_todo = models.GuestTodo(**todo.model_dump())\n    db.add(new_todo)\n    db.commit()\n    db.refresh(new_todo)",
+        "detail": "backend.app.routers.guest_todos",
+        "documentation": {}
+    },
+    {
+        "label": "create_todo",
+        "kind": 2,
+        "importPath": "backend.app.routers.todos",
+        "description": "backend.app.routers.todos",
+        "peekOfCode": "def create_todo(\n    todo: schemas.TodoCreate, \n    db: Session = Depends(database.get_db),\n    current_user: models.User = Depends(auth.get_current_user)\n):\n    new_todo = models.Todo(**todo.model_dump(), user_id=current_user.id)\n    db.add(new_todo)\n    db.commit()\n    db.refresh(new_todo)\n    return new_todo",
+        "detail": "backend.app.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "get_todos",
+        "kind": 2,
+        "importPath": "backend.app.routers.todos",
+        "description": "backend.app.routers.todos",
+        "peekOfCode": "def get_todos(\n    db: Session = Depends(database.get_db),\n    current_user: models.User = Depends(auth.get_current_user)\n):\n    todos = db.query(models.Todo).filter(models.Todo.user_id == current_user.id).order_by(models.Todo.created_at.desc()).all()\n    return todos\n@router.put(\"/{todo_id}\", response_model=schemas.TodoResponse)\ndef update_todo(\n    todo_id: int, \n    todo_update: schemas.TodoUpdate, ",
+        "detail": "backend.app.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "update_todo",
+        "kind": 2,
+        "importPath": "backend.app.routers.todos",
+        "description": "backend.app.routers.todos",
+        "peekOfCode": "def update_todo(\n    todo_id: int, \n    todo_update: schemas.TodoUpdate, \n    db: Session = Depends(database.get_db),\n    current_user: models.User = Depends(auth.get_current_user)\n):\n    todo = db.query(models.Todo).filter(models.Todo.id == todo_id, models.Todo.user_id == current_user.id).first()\n    if not todo:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Todo not found\")\n    update_data = todo_update.model_dump(exclude_unset=True)",
+        "detail": "backend.app.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "delete_todo",
+        "kind": 2,
+        "importPath": "backend.app.routers.todos",
+        "description": "backend.app.routers.todos",
+        "peekOfCode": "def delete_todo(\n    todo_id: int, \n    db: Session = Depends(database.get_db),\n    current_user: models.User = Depends(auth.get_current_user)\n):\n    todo = db.query(models.Todo).filter(models.Todo.id == todo_id, models.Todo.user_id == current_user.id).first()\n    if not todo:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Todo not found\")\n    db.delete(todo)\n    db.commit()",
+        "detail": "backend.app.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.routers.todos",
+        "description": "backend.app.routers.todos",
+        "peekOfCode": "router = APIRouter(tags=[\"User Todos\"])\n@router.post(\"\", response_model=schemas.TodoResponse, status_code=status.HTTP_201_CREATED)\ndef create_todo(\n    todo: schemas.TodoCreate, \n    db: Session = Depends(database.get_db),\n    current_user: models.User = Depends(auth.get_current_user)\n):\n    new_todo = models.Todo(**todo.model_dump(), user_id=current_user.id)\n    db.add(new_todo)\n    db.commit()",
+        "detail": "backend.app.routers.todos",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:\n        expire = datetime.now(timezone.utc) + timedelta(minutes=15)",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "kind": 2,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "def get_password_hash(password):\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:\n        expire = datetime.now(timezone.utc) + timedelta(minutes=15)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:\n        expire = datetime.now(timezone.utc) + timedelta(minutes=15)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(database.get_db)):",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(database.get_db)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        email: str = payload.get(\"sub\")\n        if email is None:",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"JWT_SECRET_KEY\", \"fallback_secret_key_for_dev\")\nALGORITHM = os.getenv(\"JWT_ALGORITHM\", \"HS256\")\nACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv(\"JWT_ACCESS_TOKEN_EXPIRE_MINUTES\", \"60\"))\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/api/v1/auth/login\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "ALGORITHM = os.getenv(\"JWT_ALGORITHM\", \"HS256\")\nACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv(\"JWT_ACCESS_TOKEN_EXPIRE_MINUTES\", \"60\"))\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/api/v1/auth/login\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv(\"JWT_ACCESS_TOKEN_EXPIRE_MINUTES\", \"60\"))\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/api/v1/auth/login\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    if expires_delta:",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/api/v1/auth/login\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "backend.app.auth",
+        "description": "backend.app.auth",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/api/v1/auth/login\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n    to_encode = data.copy()\n    if expires_delta:\n        expire = datetime.now(timezone.utc) + expires_delta\n    else:",
+        "detail": "backend.app.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "backend.app.database",
+        "description": "backend.app.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "backend.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend.app.database",
+        "description": "backend.app.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = os.getenv(\"DATABASE_URL\", \"sqlite:///./sql_app.db\")\nif SQLALCHEMY_DATABASE_URL.startswith(\"sqlite\"):\n    engine = create_engine(\n        SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n    )\nelse:\n    engine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():",
+        "detail": "backend.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "backend.app.database",
+        "description": "backend.app.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "backend.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "backend.app.database",
+        "description": "backend.app.database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "backend.app.database",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "def health_check():\n    return {\"status\": \"ok\"}",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = FastAPI(title=\"LIT MVP Todo API\", version=\"1.0.0\")\n# CORS middleware for frontend access\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"], # For MVP, allow all\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.include_router(auth.router, prefix=\"/api/v1/auth\")",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "TodoStatus",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class TodoStatus(str, enum.Enum):\n    PENDING = \"PENDING\"\n    COMPLETED = \"COMPLETED\"\ndef utc_now():\n    return datetime.now(timezone.utc)\nclass User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    first_name = Column(String, nullable=False)\n    last_name = Column(String, nullable=False)",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    first_name = Column(String, nullable=False)\n    last_name = Column(String, nullable=False)\n    email = Column(String, unique=True, index=True, nullable=False)\n    password = Column(String, nullable=False)\n    created_at = Column(DateTime(timezone=True), default=utc_now, nullable=False)\n    todos = relationship(\"Todo\", back_populates=\"owner\", cascade=\"all, delete-orphan\")\nclass Todo(Base):",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Todo",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class Todo(Base):\n    __tablename__ = \"todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    user_id = Column(Integer, ForeignKey(\"users.id\"), nullable=False)\n    title = Column(String, index=True, nullable=False)\n    body = Column(Text, nullable=True)\n    status = Column(Enum(TodoStatus), default=TodoStatus.PENDING, nullable=False)\n    created_at = Column(DateTime(timezone=True), default=utc_now, nullable=False)\n    updated_at = Column(DateTime(timezone=True), default=utc_now, onupdate=utc_now, nullable=False)\n    owner = relationship(\"User\", back_populates=\"todos\")",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "GuestTodo",
+        "kind": 6,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "class GuestTodo(Base):\n    __tablename__ = \"guest_todos\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True, nullable=False)\n    body = Column(Text, nullable=True)\n    created_at = Column(DateTime(timezone=True), default=utc_now, nullable=False)",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "utc_now",
+        "kind": 2,
+        "importPath": "backend.app.models",
+        "description": "backend.app.models",
+        "peekOfCode": "def utc_now():\n    return datetime.now(timezone.utc)\nclass User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    first_name = Column(String, nullable=False)\n    last_name = Column(String, nullable=False)\n    email = Column(String, unique=True, index=True, nullable=False)\n    password = Column(String, nullable=False)\n    created_at = Column(DateTime(timezone=True), default=utc_now, nullable=False)",
+        "detail": "backend.app.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class UserCreate(BaseModel):\n    first_name: str = Field(..., min_length=1)\n    last_name: str = Field(..., min_length=1)\n    email: EmailStr\n    password: str = Field(..., min_length=8)\nclass UserLogin(BaseModel):\n    email: EmailStr\n    password: str\nclass UserResponse(BaseModel):\n    id: int",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserLogin",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class UserLogin(BaseModel):\n    email: EmailStr\n    password: str\nclass UserResponse(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: EmailStr\n    created_at: datetime\n    class Config:",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class UserResponse(BaseModel):\n    id: int\n    first_name: str\n    last_name: str\n    email: EmailStr\n    created_at: datetime\n    class Config:\n        from_attributes = True\n# --- Todo Schemas ---\nclass TodoBase(BaseModel):",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TodoBase",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class TodoBase(BaseModel):\n    title: str = Field(..., min_length=1)\n    body: Optional[str] = None\n    status: TodoStatus = TodoStatus.PENDING\nclass TodoCreate(TodoBase):\n    pass\nclass TodoUpdate(BaseModel):\n    title: Optional[str] = None\n    body: Optional[str] = None\n    status: Optional[TodoStatus] = None",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TodoCreate",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class TodoCreate(TodoBase):\n    pass\nclass TodoUpdate(BaseModel):\n    title: Optional[str] = None\n    body: Optional[str] = None\n    status: Optional[TodoStatus] = None\nclass TodoResponse(TodoBase):\n    id: int\n    user_id: int\n    created_at: datetime",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TodoUpdate",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class TodoUpdate(BaseModel):\n    title: Optional[str] = None\n    body: Optional[str] = None\n    status: Optional[TodoStatus] = None\nclass TodoResponse(TodoBase):\n    id: int\n    user_id: int\n    created_at: datetime\n    updated_at: datetime\n    class Config:",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TodoResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class TodoResponse(TodoBase):\n    id: int\n    user_id: int\n    created_at: datetime\n    updated_at: datetime\n    class Config:\n        from_attributes = True\n# --- Guest Todo Schemas ---\nclass GuestTodoCreate(BaseModel):\n    title: str = Field(..., min_length=1)",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "GuestTodoCreate",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class GuestTodoCreate(BaseModel):\n    title: str = Field(..., min_length=1)\n    body: Optional[str] = None\nclass GuestTodoResponse(BaseModel):\n    id: int\n    title: str\n    body: Optional[str] = None\n    created_at: datetime\n    class Config:\n        from_attributes = True",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "GuestTodoResponse",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class GuestTodoResponse(BaseModel):\n    id: int\n    title: str\n    body: Optional[str] = None\n    created_at: datetime\n    class Config:\n        from_attributes = True\n# --- Token Schemas ---\nclass Token(BaseModel):\n    access_token: str",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    email: Optional[str] = None",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "backend.app.schemas",
+        "description": "backend.app.schemas",
+        "peekOfCode": "class TokenData(BaseModel):\n    email: Optional[str] = None",
+        "detail": "backend.app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "workers",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "workers = multiprocessing.cpu_count() * 2 + 1\nbind = \"0.0.0.0:8000\"\nworker_class = \"uvicorn.workers.UvicornWorker\"\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    },
+    {
+        "label": "bind",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "bind = \"0.0.0.0:8000\"\nworker_class = \"uvicorn.workers.UvicornWorker\"\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    },
+    {
+        "label": "worker_class",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "worker_class = \"uvicorn.workers.UvicornWorker\"\nkeepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    },
+    {
+        "label": "keepalive",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "keepalive = 120\nerrorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    },
+    {
+        "label": "errorlog",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "errorlog = \"-\"\naccesslog = \"-\"\nloglevel = \"info\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    },
+    {
+        "label": "accesslog",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "accesslog = \"-\"\nloglevel = \"info\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    },
+    {
+        "label": "loglevel",
+        "kind": 5,
+        "importPath": "backend.gunicorn_conf",
+        "description": "backend.gunicorn_conf",
+        "peekOfCode": "loglevel = \"info\"",
+        "detail": "backend.gunicorn_conf",
+        "documentation": {}
+    }
+]
