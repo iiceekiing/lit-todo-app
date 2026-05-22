@@ -1,9 +1,13 @@
-// API Configuration
-const API_URL = "http://localhost:8000/api/v1";
+// API Configuration — local dev vs deployed frontend
+const isLocalApi =
+    location.hostname === "localhost" || location.hostname === "127.0.0.1";
+const API_URL = isLocalApi
+    ? "http://localhost:8000/"
+    : "https://lit-todo-app-backend.onrender.com/";
 
 // State
 const state = {
-    token: localStorage.getItem('lit_token') || null,
+    token: localStorage.getItem('lit_token') || [],
     user: null, // Fetched if token exists
     guestTodos: [],
     userTodos: []
@@ -44,7 +48,7 @@ const ui = {
 const showToast = (msg, type = 'info') => {
     ui.toast.className = `fixed bottom-7 left-1/2 -translate-x-1/2 translate-y-5 px-5 py-3 rounded-xl text-[13px] font-medium shadow-[0_8px_24px_rgba(0,0,0,0.2)] opacity-0 transition-all duration-300 pointer-events-none z-[999] whitespace-nowrap flex items-center gap-2`;
     let bgColor = '#1a1a1a';
-    let icon = '💡';
+    let icon = '💡🎉🎊';
     if (type === 'error') { bgColor = '#dc2626'; icon = '❌'; }
     if (type === 'success') { bgColor = '#16a34a'; icon = '✅'; }
     
